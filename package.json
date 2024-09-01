@@ -4,7 +4,8 @@
     "description": "A real-time device tracker using Node.js, Express, Socket.io, and Leaflet.",
     "main": "server/server.js",
     "scripts": {
-      "start": "nodemon server/server.js"
+      "start": "node server/server.js",
+      "build": "webpack --config webpack.config.js"
     },
     "keywords": [],
     "author": "",
