@@ -1,0 +1,22 @@
+{
+    "name": "real-time-device-tracker",
+    "version": "1.0.0",
+    "description": "A real-time device tracker using Node.js, Express, Socket.io, and Leaflet.",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "nodemon server/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "leaflet": "^1.7.1",
+      "socket.io": "^4.5.4"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+  
